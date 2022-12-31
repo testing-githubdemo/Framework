@@ -18,7 +18,7 @@ public class DragAndDrop {
 		  WebElement target= driver.findElement(By.xpath("//div[@id=\"box101\"]"));
 		  Thread.sleep(3000);
 		  act.dragAndDrop(source, target).build().perform();
-		  
+		  System.out.println("Drag and drop");
 		 // Q.Same example by using clickAndHold() and realse()
 		  
 	}

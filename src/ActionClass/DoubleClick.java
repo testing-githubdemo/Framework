@@ -19,7 +19,7 @@ public class DoubleClick {
 		  act.doubleClick(doubleclick).build().perform();
 		  Thread.sleep(4000);
 		  driver.switchTo().alert().accept();
-
+    System.out.println("Demo Data");
 	}
 
 }
